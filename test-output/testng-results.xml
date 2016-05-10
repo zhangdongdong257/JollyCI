@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="644" started-at="2016-12-15T17:56:32Z" finished-at="2016-12-15T17:56:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="644" started-at="2016-12-15T17:56:32Z" finished-at="2016-12-15T17:56:33Z">
+      <class name="com.jollychic.app2Test.address.EditUserAddressTest">
+        <test-method status="PASS" signature="androidlowAppVersionEditUserAddress()" name="androidlowAppVersionEditUserAddress" duration-ms="629" started-at="2016-12-15T17:56:32Z" finished-at="2016-12-15T17:56:33Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

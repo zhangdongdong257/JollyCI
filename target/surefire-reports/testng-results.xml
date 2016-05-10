@@ -1,0 +1,65 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="com.jollychic.app2Test.GetEdtionTest">
+        <test-method status="PASS" signature="execute2()" name="execute2" duration-ms="1" started-at="2016-06-21T22:59:21Z" finished-at="2016-06-21T22:59:21Z">
+        </test-method>
+        <test-method status="PASS" signature="execute()" name="execute" duration-ms="2257" started-at="2016-06-21T22:59:18Z" finished-at="2016-06-21T22:59:21Z">
+        </test-method>
+      </class>
+      <class name="com.jollychic.app2Test.RegisterTest">
+        <test-method status="FAIL" signature="getNormalRegister()" name="getNormalRegister" duration-ms="324" started-at="2016-06-21T22:59:21Z" finished-at="2016-06-21T22:59:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.jollychic.jdbc.DataBase.updateClose(DataBase.java:95)
+	at com.jollychic.jdbc.DataBase.update(DataBase.java:68)
+	at com.jollychic.dao.RegisterDao.deleteUser(RegisterDao.java:17)
+	at com.jollychic.app2Test.RegisterTest.getNormalRegister(RegisterTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:607)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:874)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:689)
+	at org.testng.TestRunner.privateRun(TestRunner.java:566)
+	at org.testng.TestRunner.run(TestRunner.java:466)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:301)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:276)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:191)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:808)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:776)
+	at org.testng.TestNG.run(TestNG.java:701)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="execute2()" name="execute2" duration-ms="0" started-at="2016-06-21T22:59:21Z" finished-at="2016-06-21T22:59:21Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

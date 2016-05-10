@@ -1,0 +1,6 @@
+com\jollychic\common\HttpExecute.class
+com\jollychic\model\request\Register.class
+com\jollychic\app2Test\GetEdtionTest.class
+com\jollychic\jdbc\DataBase.class
+com\jollychic\dao\RegisterDao.class
+com\jollychic\app2Test\RegisterTest.class

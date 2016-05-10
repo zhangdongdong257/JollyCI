@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PC-201307311027" name="com.jollychic.app2Test.address.EditUserAddressTest" tests="1" failures="0" timestamp="15 Dec 2016 09:56:33 GMT" time="0.644" errors="0">
+  <testcase name="androidlowAppVersionEditUserAddress" time="0.629" classname="com.jollychic.app2Test.address.EditUserAddressTest"/>
+</testsuite>

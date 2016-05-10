@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.87 sec <<< FAILURE!
+getNormalRegister(com.jollychic.app2Test.RegisterTest)  Time elapsed: 0.288 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.jollychic.jdbc.DataBase.updateClose(DataBase.java:95)
+	at com.jollychic.jdbc.DataBase.update(DataBase.java:68)
+	at com.jollychic.dao.RegisterDao.deleteUser(RegisterDao.java:17)
+	at com.jollychic.app2Test.RegisterTest.getNormalRegister(RegisterTest.java:34)
+

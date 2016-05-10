@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="1" tests="4" time="2.598" errors="0">
+  <properties/>
+  <testcase name="execute" time="2.257" classname="com.jollychic.app2Test.GetEdtionTest"/>
+  <testcase name="execute2" time="0.001" classname="com.jollychic.app2Test.GetEdtionTest"/>
+  <testcase name="execute2" time="0.0" classname="com.jollychic.app2Test.RegisterTest"/>
+  <testcase name="getNormalRegister" time="0.324" classname="com.jollychic.app2Test.RegisterTest">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.jollychic.jdbc.DataBase.updateClose(DataBase.java:95)
+	at com.jollychic.jdbc.DataBase.update(DataBase.java:68)
+	at com.jollychic.dao.RegisterDao.deleteUser(RegisterDao.java:17)
+	at com.jollychic.app2Test.RegisterTest.getNormalRegister(RegisterTest.java:34)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
